@@ -15,6 +15,7 @@
 		DC3B95632086652000B109ED /* FootTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B95622086652000B109ED /* FootTrackerTests.swift */; };
 		DCB494E02088B805009B3765 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB494DF2088B805009B3765 /* RatingControl.swift */; };
 		DCB494E22088FA66009B3765 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB494E12088FA66009B3765 /* Meal.swift */; };
+		DCB494E420890D7B009B3765 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB494E320890D7B009B3765 /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		DC3B95642086652000B109ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCB494DF2088B805009B3765 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		DCB494E12088FA66009B3765 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		DCB494E320890D7B009B3765 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				DC3B95512086652000B109ED /* Main.storyboard */,
 				DCB494E12088FA66009B3765 /* Meal.swift */,
 				DCB494DF2088B805009B3765 /* RatingControl.swift */,
+				DCB494E320890D7B009B3765 /* MealTableViewCell.swift */,
 				DC3B95542086652000B109ED /* Assets.xcassets */,
 				DC3B95562086652000B109ED /* LaunchScreen.storyboard */,
 				DC3B95592086652000B109ED /* Info.plist */,
@@ -209,6 +212,7 @@
 				DC3B95502086652000B109ED /* ViewController.swift in Sources */,
 				DCB494E02088B805009B3765 /* RatingControl.swift in Sources */,
 				DC3B954E2086652000B109ED /* AppDelegate.swift in Sources */,
+				DCB494E420890D7B009B3765 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
