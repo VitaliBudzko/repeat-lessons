@@ -47,11 +47,8 @@
                                     <constraint firstAttribute="height" constant="81" id="8vf-nl-us5"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-c8-8Tb" customClass="RatingControl" customModule="FootTracker" customModuleProvider="target">
-                                <rect key="frame" x="16" y="510" width="200" height="110"/>
-                            </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GnT-gi-uaP">
-                                <rect key="frame" x="12" y="129" width="351" height="373"/>
+                                <rect key="frame" x="12" y="129" width="351" height="439"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="GnT-gi-uaP" secondAttribute="height" multiplier="351:373" id="KO0-pS-ALX"/>
@@ -60,6 +57,9 @@
                                     <outletCollection property="gestureRecognizers" destination="2OE-A8-Mj4" appends="YES" id="f13-Yq-FtS"/>
                                 </connections>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-c8-8Tb" customClass="RatingControl" customModule="FootTracker" customModuleProvider="target">
+                                <rect key="frame" x="12" y="591" width="252" height="44"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
