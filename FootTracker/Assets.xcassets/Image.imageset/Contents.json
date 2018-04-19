@@ -2,6 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "Meat_products_Vegetables_485899_1440x900.jpg",
       "scale" : "1x"
     },
     {
@@ -11,6 +12,7 @@
     },
     {
       "idiom" : "universal",
+      "filename" : "324567-svetik_1920x1200.jpg",
       "scale" : "3x"
     }
   ],
